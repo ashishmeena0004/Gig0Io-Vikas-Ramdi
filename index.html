@@ -4,15 +4,9 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service </title>
 
-<title>Service</title>
-
-<!-- Premium Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <!-- Meta Pixel Code -->
 <script>
@@ -24,17 +18,14 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-
 fbq('init', '2960474040965051');
 fbq('track', 'PageView');
 </script>
 
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2960474040965051&ev=PageView&noscript=1"/>
-</noscript>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2960474040965051&ev=PageView&noscript=1"
+/></noscript>
 <!-- End Meta Pixel Code -->
-
 
 <!-- AUTO TELEGRAM REDIRECT -->
 <script>
@@ -43,566 +34,248 @@ window.location.href="https://t.me/+hq83hDql0g0xMTVl";
 },6700);
 </script>
 
-
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-    font-family:'Inter',sans-serif;
-    font-weight:800;
-
-    min-height:100vh;
-
-    background:
-        linear-gradient(
-            135deg,
-            rgba(0,0,0,.82),
-            rgba(5,12,25,.95)
-        ),
-        url('https://i.ibb.co/7x4vqZqd/image.jpg')
-        center/cover no-repeat;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    position:relative;
-
-    overflow:hidden;
-
-    padding:20px;
+font-family:'Outfit',sans-serif;
+font-weight:700;
+min-height:100vh;
+background:url('https://i.ibb.co/7x4vqZqd/image.jpg') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+overflow:hidden;
 }
-
-
-/* Background Glow */
 
 body::before{
-    content:"";
-
-    position:absolute;
-
-    width:450px;
-    height:450px;
-
-    background:rgba(0,180,255,.13);
-
-    border-radius:50%;
-
-    filter:blur(110px);
-
-    top:-200px;
-    left:-150px;
+content:"";
+position:absolute;
+inset:0;
+background:radial-gradient(circle at top, rgba(0,0,0,0.6), rgba(0,0,0,0.95));
+z-index:0;
 }
-
-body::after{
-    content:"";
-
-    position:absolute;
-
-    width:400px;
-    height:400px;
-
-    background:rgba(255,200,0,.08);
-
-    border-radius:50%;
-
-    filter:blur(110px);
-
-    bottom:-180px;
-    right:-150px;
-}
-
-
-/* Card */
-
-.card{
-    position:relative;
-
-    z-index:2;
-
-    width:100%;
-    max-width:440px;
-
-    padding:38px 28px 30px;
-
-    text-align:center;
-
-    color:#fff;
-
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255,255,255,.10),
-            rgba(255,255,255,.035)
-        );
-
-    border:1px solid rgba(255,215,0,.22);
-
-    border-radius:28px;
-
-    backdrop-filter:blur(22px);
-    -webkit-backdrop-filter:blur(22px);
-
-    box-shadow:
-        0 30px 90px rgba(0,0,0,.85),
-        inset 0 1px 0 rgba(255,255,255,.08);
-
-    animation:fadeUp .8s ease;
-}
-
-
-/* Top Glow */
-
-.card::before{
-    content:"";
-
-    position:absolute;
-
-    top:0;
-    left:10%;
-
-    width:80%;
-    height:2px;
-
-    background:
-        linear-gradient(
-            90deg,
-            transparent,
-            #00c6ff,
-            #ffd700,
-            #00c6ff,
-            transparent
-        );
-
-    box-shadow:
-        0 0 20px rgba(0,198,255,.7);
-}
-
-
-/* Logo */
-
-.logo{
-    width:170px;
-    height:170px;
-
-    object-fit:cover;
-
-    border-radius:50%;
-
-    border:3px solid #ffd700;
-
-    padding:3px;
-
-    background:#111;
-
-    margin-bottom:20px;
-
-    box-shadow:
-        0 0 0 6px rgba(255,215,0,.05),
-        0 0 40px rgba(255,215,0,.45);
-
-    animation:float 3.5s ease-in-out infinite;
-}
-
-
-/* Main Heading */
-
-h1{
-    font-family:'Outfit',sans-serif;
-
-    font-size:29px;
-
-    font-weight:900;
-
-    line-height:1.15;
-
-    letter-spacing:-.4px;
-
-    color:#fff;
-
-    margin-bottom:9px;
-
-    text-shadow:
-        0 0 20px rgba(255,255,255,.12);
-}
-
-
-/* Sub Heading */
-
-h2{
-    font-family:'Outfit',sans-serif;
-
-    font-size:19px;
-
-    font-weight:900;
-
-    color:#ffd700;
-
-    margin-bottom:14px;
-}
-
-
-/* Small Description */
-
-.sub{
-    font-family:'Inter',sans-serif;
-
-    font-size:13px;
-
-    font-weight:800;
-
-    letter-spacing:1.5px;
-
-    color:rgba(255,255,255,.72);
-
-    margin-bottom:25px;
-}
-
-
-/* Button */
-
-.btn{
-    position:relative;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    width:100%;
-
-    padding:18px 20px;
-
-    border-radius:16px;
-
-    background:
-        linear-gradient(
-            135deg,
-            #00c6ff,
-            #006eff
-        );
-
-    color:#fff;
-
-    font-family:'Outfit',sans-serif;
-
-    font-size:16px;
-
-    font-weight:900;
-
-    letter-spacing:.3px;
-
-    text-decoration:none;
-
-    overflow:hidden;
-
-    box-shadow:
-        0 15px 40px rgba(0,150,255,.42);
-
-    transition:.3s ease;
-}
-
-
-.btn::before{
-    content:"";
-
-    position:absolute;
-
-    top:0;
-    left:-120%;
-
-    width:80%;
-    height:100%;
-
-    background:
-        linear-gradient(
-            110deg,
-            transparent,
-            rgba(255,255,255,.45),
-            transparent
-        );
-
-    transform:skewX(-20deg);
-
-    transition:.7s;
-}
-
-
-.btn:hover::before{
-    left:140%;
-}
-
-
-.btn:hover{
-    transform:translateY(-3px);
-
-    box-shadow:
-        0 20px 55px rgba(0,150,255,.65);
-}
-
-
-/* Badge */
-
-.badge{
-    display:inline-block;
-
-    margin:23px 0 18px;
-
-    padding:9px 16px;
-
-    border-radius:50px;
-
-    background:
-        rgba(255,215,0,.08);
-
-    border:1px solid rgba(255,215,0,.25);
-
-    color:#ffd700;
-
-    font-family:'Outfit',sans-serif;
-
-    font-size:12px;
-
-    font-weight:900;
-
-    letter-spacing:.5px;
-
-    box-shadow:
-        0 5px 20px rgba(0,0,0,.3);
-}
-
-
-/* Points */
-
-.points{
-    list-style:none;
-
-    margin:0;
-
-    padding:0;
-
-    text-align:left;
-
-    font-family:'Inter',sans-serif;
-}
-
-
-.points li{
-    margin:10px 0;
-
-    padding:13px 14px;
-
-    border-radius:13px;
-
-    background:
-        rgba(255,255,255,.045);
-
-    border:1px solid rgba(255,255,255,.08);
-
-    color:#fff;
-
-    font-size:13px;
-
-    font-weight:800;
-
-    line-height:1.5;
-
-    transition:.25s ease;
-}
-
-
-.points li:hover{
-    background:
-        rgba(255,255,255,.08);
-
-    transform:translateX(3px);
-
-    border-color:
-        rgba(0,198,255,.25);
-}
-
-
-/* Divider */
-
-.card::after{
-    content:"";
-
-    display:block;
-
-    width:70%;
-
-    height:1px;
-
-    margin:22px auto 0;
-
-    background:
-        linear-gradient(
-            90deg,
-            transparent,
-            rgba(255,255,255,.15),
-            transparent
-        );
-}
-
-
-/* Animations */
 
 @keyframes float{
-
-    0%,100%{
-        transform:translateY(0);
-    }
-
-    50%{
-        transform:translateY(-8px);
-    }
+0%{transform:translateY(0px);}
+50%{transform:translateY(-8px);}
+100%{transform:translateY(0px);}
 }
 
+.card{
+position:relative;
+z-index:2;
+backdrop-filter:blur(18px);
+background:rgba(255,255,255,0.06);
+border:1px solid rgba(255,215,0,0.3);
+border-radius:26px;
+padding:45px 30px;
+max-width:420px;
+width:95%;
+text-align:center;
+color:#fff;
+box-shadow:0 30px 80px rgba(0,0,0,0.9);
+animation:fadeUp 1s ease;
+}
+
+.logo{
+width:200px;
+height:200px;
+border-radius:50%;
+border:3px solid #FFD700;
+margin-bottom:20px;
+box-shadow:0 0 35px rgba(255,215,0,0.7);
+animation:float 3s ease-in-out infinite;
+}
+
+h1{
+font-family:'Outfit',sans-serif;
+font-size:27px;
+font-weight:900;
+color:#FFD700;
+margin-bottom:8px;
+letter-spacing:1px;
+}
+
+h2{
+font-family:'Outfit',sans-serif;
+font-size:20px;
+font-weight:900;
+margin-bottom:15px;
+}
+
+.sub{
+font-family:'Poppins',sans-serif;
+font-size:14px;
+font-weight:800;
+opacity:0.9;
+margin-bottom:28px;
+}
+
+.btn{
+display:inline-block;
+padding:17px 45px;
+border-radius:18px;
+background:linear-gradient(135deg,#00c6ff,#005bbb);
+color:#fff;
+font-family:'Outfit',sans-serif;
+font-weight:900;
+text-decoration:none;
+font-size:16px;
+letter-spacing:.3px;
+transition:0.4s ease;
+box-shadow:0 15px 40px rgba(0,176,255,0.6);
+position:relative;
+overflow:hidden;
+}
+
+.btn::before{
+content:"";
+position:absolute;
+top:0;
+left:-120%;
+width:120%;
+height:100%;
+background:linear-gradient(120deg,transparent,rgba(255,255,255,0.4),transparent);
+transition:0.6s;
+}
+
+.btn:hover::before{
+left:120%;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+box-shadow:0 25px 60px rgba(0,176,255,1);
+}
+
+.badge{
+margin:25px 0;
+background:linear-gradient(135deg,#ffffff,#f3f3f3);
+color:#d60000;
+font-family:'Poppins',sans-serif;
+font-weight:900;
+padding:7px 16px;
+border-radius:8px;
+display:inline-block;
+font-size:13px;
+box-shadow:0 5px 20px rgba(0,0,0,0.4);
+}
+
+.points{
+list-style:none;
+margin:20px 0;
+font-size:14px;
+font-family:'Poppins',sans-serif;
+font-weight:800;
+}
+
+.points li{
+margin:9px 0;
+font-weight:800;
+}
+
+.ads-tag{
+margin-top:18px;
+font-size:13px;
+font-weight:800;
+padding:8px 14px;
+border-radius:8px;
+background:rgba(255,255,255,0.08);
+border:1px solid rgba(255,255,255,0.2);
+font-family:'Poppins',sans-serif;
+}
+
+.ads-tag a{
+color:#00c6ff;
+font-weight:900;
+text-decoration:none;
+}
+
+.risk{
+font-size:12px;
+font-weight:700;
+opacity:0.75;
+margin-top:10px;
+}
 
 @keyframes fadeUp{
-
-    from{
-        opacity:0;
-
-        transform:
-            translateY(35px)
-            scale(.97);
-    }
-
-    to{
-        opacity:1;
-
-        transform:
-            translateY(0)
-            scale(1);
-    }
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
 }
 
-
-/* Mobile */
-
 @media(max-width:480px){
+h1{
+font-size:21px;
+font-weight:900;
+}
 
-    body{
-        padding:12px;
-    }
+h2{
+font-size:17px;
+font-weight:900;
+}
 
-    .card{
-        padding:32px 19px 25px;
+.sub{
+font-size:12px;
+font-weight:800;
+}
 
-        border-radius:24px;
-    }
+.btn{
+padding:15px 30px;
+font-size:15px;
+font-weight:900;
+}
 
-    .logo{
-        width:135px;
-        height:135px;
-    }
-
-    h1{
-        font-size:25px;
-    }
-
-    h2{
-        font-size:17px;
-    }
-
-    .sub{
-        font-size:11px;
-        letter-spacing:1px;
-    }
-
-    .btn{
-        padding:17px 12px;
-        font-size:14px;
-    }
-
-    .badge{
-        font-size:11px;
-    }
-
-    .points li{
-        font-size:12px;
-        padding:12px;
-    }
+.points{
+font-size:13px;
+font-weight:800;
+}
 
 }
 
 </style>
-
 </head>
-
 
 <body>
 
 <div class="card">
 
+<img src="https://i.postimg.cc/L88xRct6/Gigolo.jpg" class="logo">
 
-    <img
-        src="https://i.postimg.cc/L88xRct6/Gigolo.jpg"
-        class="logo"
-        alt="Service"
-    >
+<h1>Gigolo India Pvt Ltd</h1>
+<h2>🔥 Genuine Gigolo Service🔥</h2>
 
+<p class="sub">
+DAILY • WEEKLY • MONTHLY Basis
+</p>
 
-    <h1>
-        Gigolo India Pvt Ltd
-    </h1>
+<a href="https://t.me/+hq83hDql0g0xMTVl" class="btn" onclick="fbq('track','Lead')">
+🚀 Join Gigolo Telegram Channel
+</a>
 
+<div class="badge">
+🇮🇳 India’s Trusted Gigolo Channel
+</div>
 
-    <h2>
-        🔥 Genuine Gigolo Service 🔥
-    </h2>
-
-
-    <p class="sub">
-        DAILY • WEEKLY • MONTHLY BASIS
-    </p>
-
-
-    <a
-        href="https://t.me/+hq83hDql0g0xMTVl"
-        class="btn"
-        onclick="fbq('track','Lead')"
-    >
-        🚀 JOIN TELEGRAM CHANNEL
-    </a>
-
-
-    <div class="badge">
-        🇮🇳 INDIA'S TRUSTED GIGOLO CHANNEL
-    </div>
-
-
-    <ul class="points">
-
-        <li>
-            ✔ Earn ₹5000 – ₹10000 Per Service
-        </li>
-
-        <li>
-            ✔ No Experience Required • Males Only
-        </li>
-
-        <li>
-            ✔ 🔥 Limited Slots Available
-        </li>
-
-        <li>
-            ✔ Apply Now Directly On Telegram
-        </li>
-
-        <li>
-            ✔ ⭐ 1000+ Boys Already Joined
-        </li>
-
-    </ul>
-
+<ul class="points">
+<li>✔ Earn ₹5000 – ₹10000 per Service</li>
+<li>✔ No Experience Required Males Only
+  ✔🔥 Limited Slots Available
+Apply Now on Telegram</li>
+<li>✔ ⭐ 1000+ people Boys Already Joined</li>
+</ul>
 
 </div>
 
